@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+td,tbody {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+table.list {
+    font-size: 1.2em;
+    width: fit-content;
+    padding: 0 30px;
+}
+
+table.list tr,th {
+    width: 100%;
+    padding: 0 30px;
+}
+
+
+table.list tbody tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+table form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+table input {
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 3px;
+}
+table .form-action-buttons {
+    margin-top: 10px;
+}
+
+table .list {
+    padding: 20px 30px;
+}
+
+table .list tr th {
+    width: auto;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 4px;
+}
